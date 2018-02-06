@@ -5,11 +5,11 @@ from textblob import TextBlob
 import csv
 
 # Step 1 - Authenticate
-consumer_key= 'u9Y6dOqeUQYzknXlm7m7bHCzC'
-consumer_secret= '6RrvCLbi3m7NKNnsJd3uMMJz1ZQ8RpvTzZXsk89djYTbAIQfVd'
+consumer_key= 'xxxxxx'
+consumer_secret= 'xxxxxxxx'
 
-access_token = '959042468606984192-GqpC3CJzx2c6mPfwuaY6Mwj8YtXCi8a'
-access_token_secret = 'QqCvwDifaDz6J2dGhm9mTTd5B7Vg54gPkdHXjdZvoZWGK'
+access_token = 'xxxxxx'
+access_token_secret = 'xxxxxx'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
